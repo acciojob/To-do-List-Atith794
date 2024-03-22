@@ -5,7 +5,7 @@ let ol = document.getElementById("todoList");
 
 function handleClick() {
 	let text = document.getElementById("newTodoInput").value;
-	if(text === ""){
+	if(text === '' || text === ""){
 		return;
 	}
 	let li = document.createElement("li");
